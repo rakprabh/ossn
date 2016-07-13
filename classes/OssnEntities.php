@@ -17,7 +17,7 @@ class OssnEntities extends OssnDatabase {
 		private function initAttributes() {
 				$this->data         = new stdClass;
 				$this->time_created = time();
-				$this->time_updated = '';
+				$this->time_updated = time();
 				$this->active       = 1;
 				
 				if(empty($this->permission)) {
